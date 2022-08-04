@@ -301,9 +301,9 @@
     <footer class="page-footer">
       <div class="container footer-flex-container">
         <div class="link-wrapper">
-          <a class="logotype footer-logo link" href="./index.html" lang="en"
-            ><span class="web">Web</span><span class="studio-white">Studio</span></a
-          >
+          <a class="logotype footer-logo link" href="./index.html" lang="en">
+            <span class="web">Web</span><span class="studio-white">Studio</span>
+          </a>
           <address class="address">
             <ul class="address-list list">
               <li class="address-list-item">
@@ -312,8 +312,8 @@
                   href="https://goo.gl/maps/qBnw3kzRKvV4WiWM7"
                   target="_blank"
                   rel="noopener nofollow"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
+                  >м. Київ, пр-т Лесі Українки, 26
+                </a>
               </li>
               <li class="address-list-item">
                 <a class="footer-contact link" href="mailto:info@example.com">info@example.com</a>
@@ -357,6 +357,24 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form" autocomplete="on">
+          <label class="subscription-label">
+            Підпишіться на розсилку
+            <input
+              class="subscription-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+          </label>
+          <button type="submit" class="subscription-btn">
+            Підписатися
+            <svg class="icon-subscribe" width="24px" height="24px">
+              <use href="./images/sprite.svg#icon-subscribe"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>

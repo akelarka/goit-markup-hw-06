@@ -592,7 +592,12 @@ button {
   border-radius: 4px;
   background-color: transparent;
   outline: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--basic-white-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription-input:focus {
+  border-color: var(--basic-white-color);
 }
 
 .subscription-btn {
@@ -822,7 +827,7 @@ background-color: var(--transparent-blue-color);
 
 .modal-submit-button {
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
   width: 200px;
   height: 50px;
   font-weight: 700;
