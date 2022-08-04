@@ -752,7 +752,7 @@ background-color: var(--transparent-blue-color);
 .modal-input {
   margin-top: 4px;
   margin-bottom: 10px;
-  padding-left: 40px;
+  padding-left: 42px;
   width: 100%;
   height: 40px;
   left: 576px;
@@ -772,8 +772,6 @@ background-color: var(--transparent-blue-color);
   padding: 16px 12px;
   width: 100%;
   height: 120px;
-  left: 576px;
-  top: 314px;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
